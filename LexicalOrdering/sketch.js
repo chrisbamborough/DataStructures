@@ -37,6 +37,15 @@ function draw() {
   var endArray = vals.splice(largestI + 1);
   endArray.reverse();
   vals = vals.concat(endArray);
+
+  background(0);
+  textSize(64);
+  var s = '';
+  for (var i = 0; i < vals.length; i++) {
+    s += vals[i]
+  }
+  fill(255);
+  text(s,20,height / 2);
 }
 
 

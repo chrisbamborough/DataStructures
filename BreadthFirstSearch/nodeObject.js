@@ -8,5 +8,4 @@ function Node(value) {
 Node.prototype.addEdge = function (neighbour) {
   this.edges.push(neighbour);
   neighbour.edges.push(this);
-
 };
