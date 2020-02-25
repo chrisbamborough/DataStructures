@@ -1,5 +1,5 @@
 function Graph() {
-  this.nodes = [];
+  this.checkNodes = [];
   this.graph = {};
   this.start = null;
   this.end = null;

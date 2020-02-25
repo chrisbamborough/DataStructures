@@ -1,0 +1,35 @@
+{
+  "data": [{
+    "id": "GP",
+    "author": "Gordon Pask",
+    "published": 1970,
+    "title": "A title",
+    "topic": "Cybernetics",
+    "target": "CP",
+    "concept": "This is a great idea"
+  }, {
+    "id": "CP",
+    "author": "Cedric Price",
+    "published": 1970,
+    "title": "A title",
+    "topic": "Cybernetics",
+    "target": "JF",
+    "concept": "This is another great idea"
+  }, {
+    "id": "JF",
+    "author": "John Frazer",
+    "published": 1970,
+    "title": "A title",
+    "topic": "Arch",
+    "target": "GP",
+    "concept": "This is not a great idea"
+  }, {
+    "id": "GL",
+    "author": "Glanville",
+    "published": 1970,
+    "title": "A title",
+    "topic": "Cybernetics",
+    "target": "GP",
+    "concept": "This is an alright idea"
+  }]
+}
